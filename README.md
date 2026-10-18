@@ -4,6 +4,7 @@ Public pages for the what's the vibe? NYC app, served by GitHub Pages:
 
 - Privacy policy: https://adamocasio.github.io/whats-the-vibe-legal/privacy/
 - Terms of use: https://adamocasio.github.io/whats-the-vibe-legal/terms/
+- Support (the home page, the App Store's Support URL): https://adamocasio.github.io/whats-the-vibe-legal/
 
 Their sources are `PRIVACY_POLICY.md` and `TERMS_OF_USE.md` in the app's (private) repository; change
 each page together with its source.
