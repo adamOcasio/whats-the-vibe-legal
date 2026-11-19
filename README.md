@@ -1,6 +1,6 @@
-# what's the vibe? legal pages
+# vibe crawl legal pages
 
-Public pages for the what's the vibe? NYC app, served by GitHub Pages:
+Public pages for the vibe crawl NYC app (called what's the vibe? until November 19, 2026), served by GitHub Pages:
 
 - Privacy policy: https://adamocasio.github.io/whats-the-vibe-legal/privacy/
 - Terms of use: https://adamocasio.github.io/whats-the-vibe-legal/terms/
@@ -16,5 +16,5 @@ Rebuild a page after changing its source:
 
 ```sh
 python3 build_policy.py <app repository>/PRIVACY_POLICY.md privacy/index.html
-python3 build_policy.py <app repository>/TERMS_OF_USE.md terms/index.html "Terms of use" "The rules for using the what’s the vibe? app, with no tolerance for objectionable content or abusive users."
+python3 build_policy.py <app repository>/TERMS_OF_USE.md terms/index.html "Terms of use" "The rules for using the vibe crawl app, with no tolerance for objectionable content or abusive users."
 ```

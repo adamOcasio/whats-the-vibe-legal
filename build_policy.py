@@ -3,7 +3,7 @@ into a page: PRIVACY_POLICY.md into privacy/index.html, TERMS_OF_USE.md into ter
 
     python3 build_policy.py <path to PRIVACY_POLICY.md> privacy/index.html
     python3 build_policy.py <path to TERMS_OF_USE.md> terms/index.html "Terms of use" \
-        "The rules for using the what’s the vibe? app, with no tolerance for objectionable content or abusive users."
+        "The rules for using the vibe crawl app, with no tolerance for objectionable content or abusive users."
 
 The page title and description default to the privacy policy's.
 """
@@ -14,7 +14,7 @@ import sys
 source, out = sys.argv[1], sys.argv[2]
 page_title = sys.argv[3] if len(sys.argv) > 3 else 'Privacy policy'
 description = (sys.argv[4] if len(sys.argv) > 4 else
-               'How the what’s the vibe? app collects, uses, keeps and deletes information.')
+               'How the vibe crawl app collects, uses, keeps and deletes information.')
 text = open(source, encoding='utf-8').read()
 parts = text.split('\n---\n')
 policy = parts[1].strip()
@@ -66,7 +66,7 @@ page = f'''<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{html.escape(page_title)} · what’s the vibe?</title>
+<title>{html.escape(page_title)} · vibe crawl</title>
 <meta name="description" content="{html.escape(description)}">
 <style>
   :root {{ --paper: #F6F5EF; --ink: #11120F; --muted: #74766D; --line: #E0E1D7; --lilac: #C9B7F6; }}
